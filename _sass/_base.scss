@@ -2,10 +2,11 @@ html,
 body {
     height: 100%;
     width: 100%;
+    @include serif-font;
 }
 
-body {
-    @include serif-font;
+body#page-top {
+    background-color: $theme-dark;
 }
 
 hr {
@@ -71,7 +72,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: $theme-dark;
+    background-color: $theme-black;
     border-color: rgba($theme-dark, 0.5);
     @include sans-serif-font;
     @include transition-all;
@@ -127,7 +128,7 @@ aside {
             }
         }
         &.affix {
-            background-color: $theme-dark;
+            background-color: $theme-black;
             border-color: rgba(white, 0.3);
             .navbar-header .navbar-brand {
                 color: lighten($theme-primary, 15%);
@@ -247,6 +248,9 @@ header {
 }
 
 // Contact
+#contact {
+    background-color: $theme-black;
+}
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
