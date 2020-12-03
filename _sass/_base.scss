@@ -385,6 +385,9 @@ body {
 .text-primary {
     color: $theme-primary;
 }
+.text-muted {
+    color: rgb(167, 167, 167);
+}
 
 .no-gutter > [class*="col-"] {
     padding-right: 0;
