@@ -390,6 +390,25 @@ body {
     padding-left: 0;
 }
 
+.carousel-inner {
+    height: 80vh;
+}
+.carousel-inner .item > img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    max-height: 75vh;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.frame {
+    border: 1px solid red;
+    white-space: nowrap;
+    text-align: center;
+    margin: 1em 0;
+}
+
 // Button Styles
 .btn-default {
     @include button-variant($theme-dark, white, white);
