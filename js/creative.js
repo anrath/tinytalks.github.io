@@ -49,6 +49,8 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 })(jQuery); // End of use strict
+
+// Enlarge image on click
 $(function () {
     $(".pop").on("click", function () {
         $(".imagepreview").attr("src", $(this).find("img").attr("src"));
