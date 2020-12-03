@@ -47,6 +47,10 @@ p {
     margin-bottom: 20px;
 }
 
+.row .text-center > p {
+    font-size: 20px;
+}
+
 .bg-primary {
     background-color: $theme-primary;
 }
@@ -56,8 +60,13 @@ p {
     color: white;
 }
 
+.bg-black {
+    background-color: $theme-black;
+    color: white;
+}
+
 .text-faded {
-    color: rgba(white, 0.7);
+    color: whitesmoke;
 }
 
 section {
@@ -253,15 +262,7 @@ header {
     padding: 15px 30px;
 }
 
-// Comments
-#comments {
-    background-color: $theme-black;
-}
-
 // Contact
-#contact {
-    background-color: $theme-black;
-}
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
