@@ -3,7 +3,7 @@ body {
     height: 100%;
     width: 100%;
     @include serif-font;
-    @include scrollbars(10px, #90a4ae, #cfd8dc);
+    @include scrollbars(10px, slategray, #222222); //cfd8dc
 }
 .custom-area {
     @include scrollbars(0.5em, slategray);
