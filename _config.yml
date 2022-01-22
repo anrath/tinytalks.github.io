@@ -22,7 +22,7 @@ title: Tiny Talks
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
     Tiny Talks bring people together in small groups to discuss big ideas. 
-    In our ignagural event series "Connected: What you don't know about me.", 
+    In our inaugural event series "Connected: What you don't know about me.", 
     we discussed human connection and mental wellness.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tinytalks.net" # the base hostname & protocol for your site, e.g. http://example.com
